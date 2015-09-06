@@ -18,9 +18,12 @@ module.exports = {
   ],
   module: {
     loaders: [{
-      test: /\.js$/,
-      loaders: ['babel'],
+      test: /\.js|.jsx|.ts|\.tsx$/,
+      loader: 'babel-loader!ts-loader',
       include: path.join(__dirname, 'src')
     }]
+  },
+  resolve: {
+    extensions: ['', '.json', '.js', '.jsx', '.ts', '.tsx']
   }
 };

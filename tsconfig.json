@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"jsx": "preserve",
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"outDir": "./dist/js"		
+	},
+	"exclude": [
+		"node_modules/typescript"
+	]
+}
