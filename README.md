@@ -1,4 +1,4 @@
-React Transform Boilerplate
+React Transform Boilerplate with Typescript support
 =====================
 
 A *new* Webpack boilerplate with:
